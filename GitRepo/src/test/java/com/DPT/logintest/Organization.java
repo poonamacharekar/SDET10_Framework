@@ -7,8 +7,15 @@ public class Organization {
 	public void org(){
 		System.out.println("organization created");
 	}
+
 	@Test
 	public void Systemdate(String date,String year){
+		System.out.println(year);
+	}
+
+
+	@Test
+	public void Systemdate(String date, String month,String year){
 		System.out.println("date");
 	}
 }
